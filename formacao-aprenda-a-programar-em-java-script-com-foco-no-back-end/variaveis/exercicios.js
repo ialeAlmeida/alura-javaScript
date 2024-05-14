@@ -20,3 +20,8 @@ console.log(nomesJuntosTempStr);
 
 //--------------------------------------------------------------
 
+const num1 = 51;
+const local = 'Área';
+const together = `${local} ${num1}`;
+console.log(together);
+
