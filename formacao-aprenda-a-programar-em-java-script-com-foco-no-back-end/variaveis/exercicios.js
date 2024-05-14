@@ -32,3 +32,21 @@ console.log(nome);
 
 nome = 'Iale';
 console.log(nome);
+
+//--------------------------------------------------------------
+
+// 5. Consegui acessar as duas variáveis dentro e fora do bloco, pois as duas foram
+// declaradas com var.
+//    Já com let foi diferente. Consegui acessar aquela que foi declarada fora do 
+// bloco dentro do mesmo. Mas não consegui acessar fora do bloco a que tinha sido 
+// declarada dentro do mesmo.
+
+//--------------------------------------------------------------
+
+let estaChovendo = true;
+
+if (estaChovendo) {
+    console.log('Leve uma sombrinha!!! Está chovendo :(');
+} else {
+    console.log('Não está chovendo');
+}
