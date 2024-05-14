@@ -25,3 +25,10 @@ const local = 'Área';
 const together = `${local} ${num1}`;
 console.log(together);
 
+//--------------------------------------------------------------
+
+let nome = 'Maria';
+console.log(nome);
+
+nome = 'Iale';
+console.log(nome);
